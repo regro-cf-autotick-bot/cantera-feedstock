@@ -9,15 +9,15 @@ channel_targets:
 cxx_compiler:
 - vs2019
 fmt:
-- '11'
+- '11.1'
 libblas:
-- 3.9 *netlib
+- 3.9.* *netlib
 libboost_devel:
 - '1.86'
 libboost_headers:
 - '1.86'
 liblapack:
-- 3.9 *netlib
+- 3.9.* *netlib
 numpy:
 - '2'
 pin_run_as_build:
