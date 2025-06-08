@@ -21,25 +21,23 @@ docker_image:
 fmt:
 - '11'
 libblas:
-- 3.9 *netlib
+- 3.9.* *netlib
 libboost_devel:
 - '1.86'
 libboost_headers:
 - '1.86'
 liblapack:
-- 3.9 *netlib
+- 3.9.* *netlib
 numpy:
-- '2.0'
+- '2'
 pin_run_as_build:
   python:
     min_pin: x.x
     max_pin: x.x
 python:
-- 3.12.* *_cpython
+- 3.11.* *_cpython
 target_platform:
 - linux-64
 zip_keys:
 - - c_compiler_version
   - cxx_compiler_version
-- - python
-  - numpy
